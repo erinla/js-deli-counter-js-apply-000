@@ -17,6 +17,11 @@ function currentLine(line) {
     return ("The line is currently empty.");
   }
   else {
-    return 
+    var result = ("The line is currently: " + )
+    for (i = 0; i < line.length; i++) {
+      result += 
   }
+    
+  }
+  
 }
