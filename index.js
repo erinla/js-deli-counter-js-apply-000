@@ -1,5 +1,4 @@
-var katzDeliLine = ["Ada", "Grace", "Kent"];
-
-for (i = 0; i < katzDeliLine.length; i++){
-console.log("Welcome, " + katzDeliLine[i] + ". You are number " + [i+1] + " in line.");
+function takeANumber(line, name) {
+  line.push(name);
+  return ("Welcome, " + name + ". You are number " + line.length + " in line.");
 }
