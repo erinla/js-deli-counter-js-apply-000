@@ -17,11 +17,11 @@ function currentLine(line) {
     return ("The line is currently empty.");
   }
   else {
-    var result = ("The line is currently: " + )
+    var result = ("The line is currently: ")
     for (i = 0; i < line.length; i++) {
-      result += 
-  }
-    
+      result += (i+1) + "." + line[i]+", "
+    }
+    return result
   }
   
 }
